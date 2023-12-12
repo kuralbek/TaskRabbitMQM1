@@ -17,7 +17,6 @@ const rabbitMQUrl = 'amqp://localhost'
 
 app.use(express.json())
 
-
 app.post('/process',async (req,res) =>{
 
     const message = req.body
@@ -47,5 +46,6 @@ app.post('/process',async (req,res) =>{
 
 
 app.listen(3000,() => {
-    console.log('Server start. port 3000')
+    logger.info(`Server start. port 3000`);
+    
 })

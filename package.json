@@ -4,12 +4,16 @@
   "description": "Проект разработан для обработки входящих HTTP запросов с использованием асинхронной обработки Node.js и RabbitMQ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "amqplib": "^0.10.3",
     "express": "^4.18.2",
     "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   },
   "keywords": [],
   "author": "",
