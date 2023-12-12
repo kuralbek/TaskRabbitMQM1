@@ -1,0 +1,17 @@
+{
+  "name": "taskrabbitmqm1",
+  "version": "1.0.0",
+  "description": "Проект разработан для обработки входящих HTTP запросов с использованием асинхронной обработки Node.js и RabbitMQ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2",
+    "winston": "^3.11.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
