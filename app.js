@@ -47,5 +47,5 @@ app.post('/process',async (req,res) =>{
 
 app.listen(3000,() => {
     logger.info(`Server start. port 3000`);
-    
+
 })
